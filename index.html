@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ToNotes</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>ToNotes</h1>
+    <nav>
+      <button id="tab-todo" class="active">To-Do</button>
+      <button id="tab-notes">Notes</button>
+    </nav>
+  </header>
+
+  <!-- To-Do Section -->
+  <section id="todo-container" class="active">
+    <h2>My Tasks</h2>
+    <div class="input-group">
+      <input type="text" id="todo-input" placeholder="Add new task..."/>
+      <button id="add-todo">Add</button>
+    </div>
+    <ul id="todo-list"></ul>
+  </section>
+
+  <!-- Notes Section -->
+  <section id="notes-container">
+    <h2>My Notes</h2>
+    <div class="input-group">
+      <input type="text" id="note-title" placeholder="Note title"/>
+      <textarea id="note-content" placeholder="Write your note..."></textarea>
+      <button id="add-note">Add Note</button>
+    </div>
+    <div id="notes-list"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

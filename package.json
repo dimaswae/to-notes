@@ -1,0 +1,27 @@
+{
+  "name": "to-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimaswae/to-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimaswae/to-notes/issues"
+  },
+  "homepage": "https://github.com/dimaswae/to-notes#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "replicate": "^1.2.0"
+  }
+}
